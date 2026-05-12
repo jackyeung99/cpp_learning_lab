@@ -10,9 +10,5 @@ int main() {
 
     cout << (MyBool1 && MyBool2) << endl;
     cout << (MyBool1 || MyBool2) << endl;
-
-
-    float aBigFloat {1'000'000.3f};
-    float()
-    cout << aBigFloat << endl;
+    
 }
