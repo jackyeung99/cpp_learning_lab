@@ -1,4 +1,6 @@
 
+# Program Structure
+
 ### General Ideas
 
 - Main Difference between Compiled and High Level languages 
@@ -20,17 +22,3 @@ This command line instruction compiles the source code myprogram.cpp into the ou
 ./myprogram
 ```
 
-
-### New Syntax 
-
-```
-cout << "Hello World"
-```
-- cout: print to the command line 
-- << operator: sends the following data to cout (also bitwise left shift operator)
-- "Hello World": string value 
-- endl: creates a new line similar to '\n' 
-
-### Additional Notes
-- <<: operator can be chained  
-- ;: each line ends with this to inform the compiler when one instruction ends and another starts
