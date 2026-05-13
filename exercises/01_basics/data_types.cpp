@@ -32,4 +32,29 @@ int main(){
     cout << sizeof(x) << endl;
     cout << sizeof(static_cast<double>(x)) << endl;
 
+
+
+    // Enum 
+    cout << string(20, '-') << endl;
+
+    enum Level {
+        LOW, 
+        MEDIUM, 
+        HIGH
+    };
+    
+
+    Level level = LOW;
+    Level level2 = HIGH; 
+
+    cout << level << endl;
+    cout << level2  << endl;
+
+    cout << (LOW < HIGH) << endl;
+
+    // Level level3 = MED;
+
+
+    // 
+  
 }

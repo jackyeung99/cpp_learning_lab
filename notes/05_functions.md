@@ -1,6 +1,9 @@
 # 5. Functions
 
 ## Function Definitions
+We define functions in a paramet 
+
+
 ## Function Declarations
 ## Parameters
 ## Return Values

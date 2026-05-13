@@ -178,8 +178,12 @@ Used for explicit type conversion.
 
 ## Type Sizes (`sizeof`)
 
+sizeof(var) is a way to get the explicit size in memory
+
 
 ## Overflow & Underflow
+
+These are errors for when you try to assign a value that is outside of the defined memory allocation. 
 
 
 ## Floating Point Precision
@@ -218,11 +222,35 @@ Using `f` avoids an implicit conversion from `double` to `float`.
 
 ## Enumerations (`enum`)
 
+a way to set up a data type with named constants which allows the code to be more readable
 
+instead of doing 
+
+``` cpp
+enum Direction {
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
+};
+
+Direction direction = LEFT;
+
+if (direction == LEFT) {
+    cout << "Going left";
+}
+```
 
 ## Type Aliases (`typedef`, `using`)
 
+Type aliases let you create a new name for an existing type.
 
+```cpp
+using PairList = std::vector<std::pair<int, std::string>>;
+
+PairList data;
+
+```
 
 # Important Notes
 

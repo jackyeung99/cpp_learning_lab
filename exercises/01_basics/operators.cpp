@@ -10,5 +10,10 @@ int main() {
 
     cout << (MyBool1 && MyBool2) << endl;
     cout << (MyBool1 || MyBool2) << endl;
+
+    MyBool1 = true;
     
+    if (MyBool2) {
+        cout << "Hello" << endl;
+    }
 }
